@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  padding: 1rem;
+  display: flex;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+body {
+  flex-direction: column;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+.top-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button.new-pokemon {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Cabin Sketch", sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.new-pokemon:hover {
+  background-color: #4cc9f0;
+}
+
+button.new-pokemon:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.score-info-container h3 {
+  font-size: 1.5rem;
+  line-height: 0.75rem;
+}
+
+.bottom-cards-container {
+  margin-block-start: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+}
